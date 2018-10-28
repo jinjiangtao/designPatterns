@@ -1,0 +1,18 @@
+{
+    "name": "jiangtao/try-make-package",
+    "authors": [
+        {
+            "name": "jinjiangtao",
+            "email": "840129243@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">7.0"
+    },
+    "autoload":{
+        "psr-4": {
+            "Flower\\Rose\\": "src/Flower/Rose",
+            "Flower\\Lily\\": "src/Flower/Lily"
+        }
+    }
+}
