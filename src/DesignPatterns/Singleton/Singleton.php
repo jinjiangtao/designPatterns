@@ -9,8 +9,23 @@ namespace DesignPatterns\Singleton;
 
 class Singleton
 {
-    public function testSinleton()
+    public static $singleObj = null;
+
+    public static function getSinleton()
     {
-        echo "test Sinleton";
+        if( self::$singleObj == null) {
+            self::$singleObj = new Singleton();
+        }
+        return self::$singleObj;
+    }
+
+    private function __construct()
+    {
+
+    }
+
+    private function __clone()
+    {
+
     }
 }

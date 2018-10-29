@@ -9,9 +9,9 @@ namespace DesignPatterns\SimpleFactory;
 
 class SimpleFactory
 {
-    public function test()
+    public function getFactory()
     {
-        echo "simple factory test";
+
     }
 }
 
