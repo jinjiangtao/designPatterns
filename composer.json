@@ -1,7 +1,6 @@
 {
     "name": "jiangtao/design-patterns",
     "description": "study design patterns from php",
-    "license": "1.0",
     "authors": [
         {
             "name": "jinjiangtao",
@@ -11,6 +10,7 @@
     "require": {
         "php":">=7.0"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "DesignPatterns\\Singleton\\": "src/DesignPatterns/Singleton",
