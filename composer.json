@@ -1,0 +1,20 @@
+{
+    "name": "jiangtao/design-patterns",
+    "description": "study design patterns from php",
+    "license": "1.0",
+    "authors": [
+        {
+            "name": "jinjiangtao",
+            "email": "840129243@qq.com"
+        }
+    ],
+    "require": {
+        "php":">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\Singleton\\": "src/DesignPatterns/Singleton",
+            "DesignPatterns\\SimpleFactory\\": "src/DesignPatterns/SimpleFactory"
+        }
+    }
+}
