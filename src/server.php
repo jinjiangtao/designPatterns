@@ -8,7 +8,7 @@ function hello($name) {
     return "Hello $name!";
 }
 
-echo "ss";
+//dev test echo "ss";
 
 $server = new Server("http://0.0.0.0:8086");
 $server->addFunction('hello');
